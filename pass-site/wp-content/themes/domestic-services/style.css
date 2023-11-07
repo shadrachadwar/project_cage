@@ -1,0 +1,308 @@
+/*!
+ Theme Name:   Domestic Services
+ Theme URI:    https://walkerwp.com/domestic-services/
+ Description:  Domestic Services is the child theme of MularX, Domestic Services is a feature rich WordPress theme for home service businesses like HVAC, construction, repair, flooring and hardwood,  carpentry, handyman, maintenance and renovation, plumbing, gardening and landscaping, electrical, painting and staining, cleaning and many more. Domestic Services comes with great appearance with tons of featrues like cross-browser compatibility, SEO optimized, accessbility-ready and highly customizable. It comes with multiple header and footer layout as well as and one click demo import makes ease to setup your site in a minute.  find the demos and details at https://walkerwp.com/domestic-services.
+ Author:       WalkerWP
+ Author URI:   https://walkerwp.com/
+ Template:     mularx
+ Version:      1.0.3
+ Tested up to: 6.2
+ Requires PHP: 5.6
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, grid-layout, blog, news, two-columns, three-columns, footer-widgets, sticky-post
+ Text Domain:  domestic-services
+*/
+
+.banner-content .banner-heading, 
+.banner-contents .banner-heading{
+    text-transform: uppercase;
+}
+.featured-cta-wrapper:before{
+    background: transparent;
+}
+.featured-ctas-holder span.featured-cta-image {
+    padding: 0;
+    border-radius: 0;
+    box-shadow: none;
+    border: 0;
+}
+.featured-cta-wrapper .featured-ctas-holder .featured-cta-box {
+    padding: 0;
+    box-shadow: none;
+    border-radius: 0;
+    border: 0;
+}
+.featured-cta-wrapper .featured-ctas-holder .featured-cta-box:hover{
+    box-shadow: none;
+}
+.featured-cta-wrapper .featured-ctas-holder .featured-cta-box .title {
+    margin: 0;
+}
+.featured-cta-wrapper .featured-ctas-holder a.featured-cta-more{
+    margin-top: 0;
+}
+.about-wrapper .col-md-6.img-col {
+    width: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+}
+.about-wrapper .text-col {
+    padding: 0 50px 0 0;
+}
+.about-wrapper {
+    min-height: 630px;
+    position: relative;
+}
+.wrapper.about-wrapper:before,
+.wraper.service-wraper:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: var(--primary-color);
+    opacity: 0.0774;
+}
+.wrapper.steps-wrapper {
+    background: transparent;
+    color: var(--text-color);
+}
+.wrapper.steps-wrapper .section-heading{
+    color: var(--heading-color);
+}
+.wrapper.steps-wrapper .steps-holder {
+    display: inline-block;
+    width: 58.33%;
+}
+.wrapper.steps-wrapper .col-md-5.section-header {
+    padding-right: 50px;
+}
+span.steps-content .step-number {
+    margin: 0;
+    opacity: 0.13;
+}
+.wrapper.steps-wrapper span.steps-content:before{
+    display: none;
+}
+.steps-holder .steps-box .title {
+    position: absolute;
+    top: 52px;
+    left: 190px;
+    font-size: 25px;
+    color: var(--primary-color);
+}
+.steps-box .step-number span {
+    color: var(--primary-color);
+}
+.wrapper.steps-wrapper span.steps-content p {
+    margin-top: 0;
+}
+.wrapper.steps-wrapper .steps-holder .steps-box {
+    margin-bottom: 40px;
+}
+.wraper.service-wraper .service-box {
+    background: transparent;
+    box-shadow: none;
+    border-radius: 0;
+    border: 0;
+}
+.wraper.service-wraper .service-box:hover{
+    box-shadow: none;
+}
+.wraper.service-wraper .service-box a.service-thumbnail img{
+    border-radius: 0;
+}
+.wraper.service-wraper .services-holder{
+    grid-template-columns: repeat(auto-fit, minmax(500px,1fr));
+}
+.wraper.service-wraper .service-box p.service-excerpt {
+    margin-bottom: 0;
+    padding: 0;
+}
+.wraper.service-wraper.service-layou-1 .service-box .service-title a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+.wraper.service-wraper.service-layou-1 .service-box .service-title a:hover {
+    color: var(--secondary-color);
+}
+.wraper.service-wraper.service-layou-1 .service-box .service-title {
+    margin: 17px 0 0;
+}
+.wrapper.latest-product-wrapper .product-item {
+    border: 0;
+    border-radius: 0;
+    padding: 0px;
+    box-shadow: none;
+}
+.latest-product-wrapper .products-holder{
+    grid-gap: 40px;
+}
+.wraper.service-wraper .services-holder {
+    grid-gap: 70px;
+}
+a.mularx-button, .products-button-group a.button,
+.featured-cta-wrapper .featured-ctas-holder a.featured-cta-more,
+.wraper.service-wraper a.all-services, .wrapper.portfolio-wraper a.more-portfolio, a.meet-all-teams, a.visit-store-btn, .wrapper.discount-offer-wrapper .offer-holder a.mularx-button, a.featured-cta-button, a.testimonial-cta-button{
+    background: var(--primary-color) !important;
+    padding: 10px 35px;
+}
+a.mularx-button:hover, .products-button-group a.button:hover,
+.featured-cta-wrapper .featured-ctas-holder a.featured-cta-more:hover,
+.wraper.service-wraper a.all-services:hover,
+ .wrapper.portfolio-wraper a.more-portfolio:hover, 
+ a.meet-all-teams:hover, a.visit-store-btn:hover, 
+ .wrapper.discount-offer-wrapper .offer-holder a.mularx-button:hover, a.featured-cta-button:hover, 
+a.testimonial-cta-button:hover{
+    background: var(--secondary-color) !important;
+    color: #fff;
+}
+.header-buttons a {
+    padding: 12px 35px;
+}
+.wrapper.newsletter-wrapper .section-heading{
+    color: var(--primary-color);
+}
+.newsletter-wrapper form.wpcf7-form input.wpcf7-form-control.wpcf7-submit{
+    background: var(--primary-color);;
+}
+.newsletter-wrapper form.wpcf7-form input.wpcf7-form-control.wpcf7-submit:hover{
+    background: var(--secondary-color);;
+}
+.wrapper.latest-post-wrapper .latest-posts-holder img {
+    border-radius: 0;
+}
+.wrapper.latest-post-wrapper .latest-posts-holder {
+    display: inline-block;
+}
+.wrapper.latest-post-wrapper .latest-posts-holder .post-box {
+    display: flex;
+    margin-bottom: 25px;
+}
+.wrapper.latest-post-wrapper .latest-posts-holder .post-box a.post-thumbnail {
+    width: 35%;
+}
+.wrapper.latest-post-wrapper .latest-posts-holder .post-box .post-content {
+    width: 65%;
+    padding-left: 30px;
+}
+.latest-post-wrapper a.mularx-button.post-more {
+    padding: 10px 35px;
+    font-size: 14px;
+    color: #fff;
+}
+.latest-post-wrapper a.mularx-button.post-more:hover {
+    color: #fff;
+    box-shadow: 0px 23px 23px -10px rgb(0 0 0 / 34%);
+    transform: scale(1.02);
+}
+.discount-offer-wrapper .offer-holder .offer-content {
+    text-align: center;
+    padding: 0 15%;
+}
+.discount-offer-wrapper h2.section-heading {
+    margin: 0 0 20px;
+}
+.wrapper.newsletter-wrapper:before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: var(--primary-color);
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.14;
+}
+.wrapper.newsletter-wrapper{
+    background: transparent;
+}
+.about-box .page-title, .mission-box h5.page-title{
+    color: var(--primary-color);
+}
+.wrapper.banner-wrapper.banner-layout-1  .banner-content {
+    transform: translateX(-50%);
+    left: 50%;
+    max-width: 1200px;
+}
+.wrapper.banner-wrapper.banner-layout-1  span.banner-content-holder {
+    padding: 0;
+}
+header#masthead .main-header .container{
+    padding: 0;
+}
+.wrapper.counter-wrapper .counter-holder .counter-number {
+    color: var(--primary-color);
+}
+.wrapper.counter-wrapper .section-heading:before{
+    background: var(--primary-color);
+}
+.team-wraper .teams-holder .teams-box,
+.team-wraper .teams-holder .teams-box:hover{
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+}
+.section-heading,
+.wrapper.text-align-left .section-heading, .wrapper.text-align-right .section-heading{
+    margin-bottom: 15px;
+}
+.portfolio-box .portfolio-image img,
+.portfolio-box .portfolio-image{
+    border-radius: 0;
+}
+a.mularx-button, .products-button-group a.button{
+    border: 0;
+}
+.header-buttons a:hover {
+    box-shadow: 0 0 21px #2b2c5926;
+    transform: scale(1);
+}
+.header-buttons a.primary-buttons:hover{
+    background: var(--secondary-color);
+}
+.header-buttons a.secondary-buttons:hover{
+    background: var(--primary-color);
+}
+.wraper.service-wraper .service-box a.service-thumbnail img {
+   transition: all ease 0.23s;
+}
+.wraper.service-wraper .service-box:hover a.service-thumbnail img {
+    transform: translateY(-10px);
+}
+
+@media(max-width: 1200px){
+    .wrapper.banner-wrapper.banner-layout-1  span.banner-content-holder {
+        padding: 30px;
+    }
+}
+@media(max-width: 1024px){
+    .wrapper.main-header {
+        padding: 20px;
+    }
+    .wrapper.main-header.header-layout-1 .header-icons.header-buttons-group{
+        display: none;
+    }
+}
+@media(max-width: 767px){
+   .wrapper.banner-layout-1  span.banner-content-holder {
+        max-width: 100% !important;
+    }
+    .about-wrapper .col-md-6.img-col {
+        width: 100%;
+        position: relative;
+        padding: 20px;
+    }
+    .wrapper.steps-wrapper span.steps-content {
+        padding-left: 0;
+    }
+    .steps-holder .steps-box .title {
+        left: 88px;
+    }
+    .wraper.service-wraper .service-box a.service-thumbnail img {
+        width: 100% !important;
+    }
+}

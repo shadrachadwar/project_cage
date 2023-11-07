@@ -1,0 +1,173 @@
+.customize-control-mularx-radio-image img,
+#input_mularx_header_layout img,
+#input_mularx_footer_layout img,
+#input_mularx_blog_layout img,
+#input_mularx_blog_view_layout img,
+#input_mularx_single_blog_layout img,
+#input_mularx_banner_layout img{
+    margin: 5px 0;
+    transition: all ease 0.23s;
+    border: 1px solid #ededed;
+    max-width: 98%;
+}
+.customize-control-mularx-radio-image input,
+#mularx-radio-mularx_header_layout input,
+.customize-control-mularx-radio-image-veritical input{
+	display: none;
+}
+.customize-control-mularx-radio-image-veritical img:hover, 
+.customize-control-mularx-radio-image-veritical input:checked + img,
+#input_mularx_header_layout img:hover,
+#input_mularx_header_layout input:checked + img,
+#input_mularx_footer_layout img:hover,
+#input_mularx_footer_layout input:checked + img,
+.customize-control-mularx-radio-image img:hover,
+.customize-control-mularx-radio-image input:checked + img,
+#input_mularx_blog_layout img:hover,
+#input_mularx_blog_layout input:checked + img,
+#input_mularx_blog_view_layout img:hover,
+#input_mularx_blog_view_layout input:checked + img,
+#input_mularx_single_blog_layout img:hover,
+#input_mularx_single_blog_layout input:checked + img,
+#input_mularx_banner_layout img:hover,
+#input_mularx_banner_layout input:checked + img{
+    border: 1px solid #07d6eb;
+    box-shadow: 0 0 5px rgb(11 207 199 / 61%);
+}
+#input_mularx_featured_layout,
+#input_mularx_blog_post_view,
+#input_mularx_blog_layout,
+#input_mularx_single_blog_layout,
+#input_mularx_blog_view_layout,
+#input_mularx_single_blog_layout,
+#input_mularx_wooproduct_layout,
+#input_mularx_single_wooproduct_layout{
+    display: flex;
+    justify-content: space-between;
+}
+#input_mularx_featured_layout label,
+#input_mularx_blog_layout label,
+#input_mularx_blog_post_view label,
+#input_mularx_footer_layout label,
+#input_mularx_single_blog_layout label,
+#input_mularx_blog_view_layout label,
+#input_mularx_single_blog_layout label,
+#input_mularx_footer_scroll_top_icon label,
+#input_mularx_wooproduct_layout label,
+#input_mularx_single_wooproduct_layout label{
+    padding: 0 3px;
+}
+#input_mularx_footer_scroll_top_icon label{
+    padding: 0 2px;
+}
+#input_mularx_banner_layout label,
+#input_mularx_featured_section_layout label{
+    padding: 0 4px;
+}
+#customize-theme-controls .customize-control input[type=text],
+#customize-theme-controls .customize-control input[type=url],
+#customize-theme-controls .customize-control textarea,
+#customize-theme-controls .customize-control input[type=checkbox],
+#customize-theme-controls .customize-control input[type=number],
+#customize-theme-controls .customize-control select {
+    border-radius: 0;
+    border-color: #b0cccf;
+}
+#customize-theme-controls .customize-control input[type=checkbox]{
+     border-color: #07d6eb;
+}
+#customize-control-header_secondary_button_status,
+#customize-control-header_primary_button_status{
+    border-top: 2px solid #e1e1e3;
+    padding-top: 10px;
+}
+li#customize-control-shpor_topbar_bg_color span.customize-control-title,
+li#customize-control-mularx_navigation_link_hover_style label.customize-control-title,
+li#customize-control-shpor_header_background_color span.customize-control-title,
+li#customize-control-shpor_promotion_bg_color span.customize-control-title,
+li#customize-control-shpor_footer_background_color span.customize-control-title,
+li#customize-control-shpor_copyright_bg_color span.customize-control-title,
+li#customize-control-mularx_body_fonts label.customize-control-title,
+li#customize-control-mularx_heading_fonts label.customize-control-title,
+li#customize-control-mularx_social_icon_bg_color span.customize-control-title,
+li#customize-control-mularx_social_icon_hover_bg_color .customize-control-title,
+li#customize-control-mularx_scroll_top_background span.customize-control-title,
+li#customize-control-mularx_scroll_top_background_hover span.customize-control-title,
+li#customize-control-mularx_post_meta_spacing span.customize-control-title,
+li#customize-control-mularx_post_meta_cat_background span.customize-control-title,
+li#customize-control-mularx_post_meta_ert_background span.customize-control-title,
+li#customize-control-subheader_background_color span.customize-control-title,
+li#customize-control-shpor_footer_cta_buttonbg_color span.customize-control-title,
+li#customize-control-shpor_footer_cta_formbg_color span.customize-control-title,
+li#customize-control-service_box_image_1 span.customize-control-title,
+li#customize-control-service_box_image_2 span.customize-control-title,
+li#customize-control-service_box_image_3 span.customize-control-title,
+li#customize-control-service_box_image_4 span.customize-control-title,
+li#customize-control-product_showcase_image_1 span.customize-control-title,
+li#customize-control-product_showcase_image_2 span.customize-control-title,
+li#customize-control-product_showcase_image_3 span.customize-control-title,
+li#customize-control-mularx_wooproduct_layout span.customize-control-title,
+li#customize-control-mularx_single_wooproduct_layout span.customize-control-title,
+li#customize-control-banenr_background_color span.customize-control-title,
+li#customize-control-offer_cta_text_color span.customize-control-title,
+li#customize-control-product_showcase_text_color span.customize-control-title{
+
+    padding: 0 0 10px;
+    color: #08bfd1;
+    border-bottom: 2px solid;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+#customize-controls .wp-full-overlay-sidebar-content {
+    background: #fff;
+}
+#customize-theme-controls .control-section.open {
+    border-bottom: 0;
+}
+#customize-theme-controls .control-panel-themes>.accordion-section-title, #customize-theme-controls .control-panel-themes>.accordion-section-title:hover {
+    border-top: 0;
+}
+li#customize-control-mularx_banner_layout #input_mularx_banner_layout {
+    display: inline-block;
+    width: 100%;
+}
+li#customize-control-mularx_banner_layout #input_mularx_banner_layout label,
+#input_mularx_featured_section_layout label{
+    max-width:47%;
+    display: inline-block;
+    float: left;
+}
+li#customize-control-mularx_wooproduct_layout span.customize-control-title,
+li#customize-control-mularx_single_wooproduct_layout span.customize-control-title{
+    border-bottom: 0;
+}
+li#customize-control-mularx_wooproduct_layout span.description,
+li#customize-control-mularx_single_wooproduct_layout span.description {
+    font-size: 13px;
+    font-weight: 400;
+    border-top: 2px solid #08bfd1;
+    margin-top: 8px;
+    padding-top: 12px;
+    text-transform: capitalize;
+}
+ul#sub-accordion-panel-mularx_front_page_panel h3.accordion-section-title {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 14px;
+}
+li#customize-control-walker_charity_section_order ul.walkermag-sortable-list li{
+    background: #ededed;
+    border: 1px solid #ededed;
+    height: 20px;
+    line-height: 20px;
+    margin: 5px 0;
+}
+li#customize-control-walker_charity_section_order ul.walkermag-sortable-list li:hover {
+    border: 1px solid #3285f4;
+}
+li#accordion-section-mularx_section_order_options h3.accordion-section-title {
+    text-transform: uppercase;
+    border: 2px solid #3285f4;
+    color: #3285f4;
+}
